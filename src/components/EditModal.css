@@ -1,0 +1,42 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+   height: auto;
+  }
+  
+ 
+  .popup {
+    margin-top: 5px;
+   font-size: 18px;
+   color:black;
+   text-align: center;
+   font-weight: bold;
+   word-wrap: break-word;
+   white-space: pre-wrap;
+  }
+  
+
+  .modal-footer button{
+    display: block;
+    max-width: 100px;
+    text-align: center;
+    font-size: 11px;
+    margin: 5px auto;
+  }
